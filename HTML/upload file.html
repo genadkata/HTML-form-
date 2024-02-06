@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Upload Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        Body {
+            background-color: lightBlue;
+        }
+        .login {
+            background-color: red;
+            width: 100%;
+            padding: 15px;
+            margin: 10px;
+        }
+        form {
+            border: 3px solid;
+            color: white;
+            width: 30%;
+            margin-left : auto;
+            margin-right: auto;
+            margin-top: 200px;
+        }
+        .username ,.password, .file {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+        .login:hover {
+            opacity: 0.7;
+        }
+
+        .container {
+            padding: 25px;
+            background-color: lightblue;
+        }
+        img
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #files {
+            border: 1px solid rgba(229, 229, 229, 0.7);
+            border-radius: 10px;
+            padding: 5px 10px;
+            font-family: 'Helvetica', sans-serif;
+            transition: .5s;
+        }
+
+        #file:hover {
+            background-color: rgba(255, 255, 255, 0.64);
+        }
+    </style>
+</head>
+<body>
+<center> <h1>Website</h1> </center>
+<form  action="/submit" method="POST" enctype="multipart/form-data">
+    <div class="container">
+        <center><strong style="font-size: 40px ; color:black">Upload</strong></center>
+        <label>Username : </label>
+        <input class="username" placeholder="Enter Username to upload a file"  >
+        <label>Password : </label>
+        <input class="password" placeholder="Enter Password to upload a file" name="password">
+        <label style="color:black">Please Import a File</label>
+            <label id="file" for="files">Browse Files</label>
+            <input id="files" style="display:none;" type="file">
+        <button class="login">Submit</button>
+    </div>
+</form>
+</body>
+</html>
