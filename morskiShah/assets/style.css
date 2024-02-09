@@ -1,0 +1,140 @@
+body {
+    background-image: url("fon.jpg");
+    text-align: center;
+    background-size : cover;
+}
+
+h3{
+    font-size: 50px;
+}
+.tct-container {
+    min-height: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.tct-table{
+    border-collapse: unset;
+}
+
+.tct-table th, td {
+    padding: 70px;
+}
+
+.tct-form {
+    background: #c9d5a5;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 30px;
+}
+
+.tct-form button {
+    font-size: 30px;
+}
+
+.tct-form select {
+    font-size: 50px;
+}
+
+.tct-message {
+    font-size: 30px;
+    background: #f6f6f6;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    color: #06542f;
+}
+.welcome .player-name {
+    margin: 30px 0;
+    color:red;
+}
+.welcome h1,
+.welcome h2 {
+    text-align: center;
+    color:red;
+}
+
+.welcome input {
+    width: 100%;
+}
+button {
+    background-color: #ff3111;
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    opacity: .5;
+}
+input, button {
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+      font-size: 12pt;
+      color: #333;
+  }
+input[type=text] {
+       border-radius: 1px;
+       border: 5px solid #eee;
+       margin: 3px 0;
+       width: 200px;
+       padding: 8px 5px;
+   }
+.firstplayer {
+    margin-right: 500px;
+    color:red;
+    font-size:50px;
+}
+.secondplayer
+{
+    margin-left: 50px;
+    color:green;
+    font-size:50px;
+}
+.newgame
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    color: black;
+    border-radius: 20%;
+}
+.table
+{
+    padding: 10px;
+    border:1px solid rgba(255, 255, 255, 0.64);
+    border-radius: 20px;
+}
+td {
+    border:1px solid;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    align-content: center;
+}
+.pobeda {
+    width: 600px;
+    padding: 30px;
+    background: darkgreen;
+    color: white;
+    font-size: 20px;
+    border: 1px solid lightgray;
+}
+.playersimbols
+{
+    margin-top: 150px;
+    width: 600px;
+    background: dimgray;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 30px;"
+}
+
+
